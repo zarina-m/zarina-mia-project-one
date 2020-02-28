@@ -1,0 +1,125 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration,input[type=search]::-webkit-search-results-button,input[type=search]::-webkit-search-results-decoration{-webkit-appearance:none;-moz-appearance:none}input[type=search]{-webkit-appearance:none;-moz-appearance:none;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}textarea{overflow:auto;vertical-align:top;resize:vertical}audio,canvas,video{display:inline-block;max-width:100%}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}a:focus{outline:thin dotted}a:active,a:hover{outline:0}img{border:0;-ms-interpolation-mode:bicubic}figure{margin:0}form{margin:0}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline}button,input{line-height:normal}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}button,html,input,select,textarea{color:#222}::-moz-selection{background:#b3d4fc;text-shadow:none}::selection{background:#b3d4fc;text-shadow:none}img{vertical-align:middle}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}.chromeframe{margin:.2em 0;background:#ccc;color:#000;padding:.2em 0}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content:''; clear: both; height: 0; } 
+
+html {
+    font-size: 62.5%;
+}
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+header {
+    background-image: url(assets/image-1.jpg);
+    background-size: cover;
+    height: 75vh;
+    min-height: 600px;
+    padding: 50px 0;
+}
+
+header nav {
+    font-family: 'Catamaran';
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    font-size: 2rem;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+h1 {
+    font-family: 'Pacifico';
+    font-size: 12rem;
+    color: #F2A11C;
+    text-align: center;
+    padding-top: 20%;
+    display: inline-block;
+}
+
+a img {
+    width: 10%;
+    background-color: pink;
+}
+
+.icons {
+    position: absolute;
+    right: 0;
+    top: 39%;
+    width: 21%;
+}
+
+h2 {
+    font-family: 'Pacifico';
+    color: red;
+}
+
+
+.intro {
+    background-color:white;
+}
+
+.intro div {
+    float: left;
+    width: 50%;
+}
+
+p {
+    font-family: 'Catamaran';
+    font-size: 2rem;
+    color: #1f2022;
+
+}
+.heading {
+    font-size: 4rem;
+    color: #1f2022;
+}
+
+.profile {
+    background-color:#f4f4f4;
+}
+
+.profile img {
+    float: left;
+    width: 15%;
+}
+
+
+
+.links {
+    background-image: url(assets/image-5.jpg);
+    background-size: cover;
+    height: 40vh;
+    min-height: 450px;
+
+}
+
+.links li {
+    display: inline-block;
+    font-size: 3rem;
+}
+
+.gallery {
+    background-color: violet;
+}
+
+footer {
+    background-color: royalblue;
+}
