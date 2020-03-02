@@ -1,0 +1,364 @@
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration,input[type=search]::-webkit-search-results-button,input[type=search]::-webkit-search-results-decoration{-webkit-appearance:none;-moz-appearance:none}input[type=search]{-webkit-appearance:none;-moz-appearance:none;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}textarea{overflow:auto;vertical-align:top;resize:vertical}audio,canvas,video{display:inline-block;max-width:100%}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}a:focus{outline:thin dotted}a:active,a:hover{outline:0}img{border:0;-ms-interpolation-mode:bicubic}figure{margin:0}form{margin:0}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline}button,input{line-height:normal}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}button,html,input,select,textarea{color:#222}::-moz-selection{background:#b3d4fc;text-shadow:none}::selection{background:#b3d4fc;text-shadow:none}img{vertical-align:middle}fieldset{border:0;margin:0;padding:0}textarea{resize:vertical}.chromeframe{margin:.2em 0;background:#ccc;color:#000;padding:.2em 0}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content:''; clear: both; height: 0; } 
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2rem;
+    font-family: 'Catamaran';
+
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    height: 85vh;
+    min-height: 600px;
+    padding: 50px 0;
+    background-image: url('../assets/image-1.jpg');
+    background-size: cover;
+}
+
+.hamburger-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 25px;
+    display: none;
+    font-size: 5rem;
+}
+
+nav {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    padding: 0 15px;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+h1 {
+    padding-top: 240px;
+    color: #F2A11C;
+    font-family: 'Pacifico';
+    font-size: 13rem;
+}
+
+.icons i {
+    margin: 10px;
+    color: #F2A11C;
+    font-size: 2.5rem;
+}
+
+.icons {
+    position: absolute;
+    top: 30%;
+    right: 30px;
+}
+
+h1, h2 {
+    font-family: 'Pacifico';
+    text-align: center;
+}
+
+.wrapper {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+.intro div {
+    float: right;
+    height: 70vh;
+    width: 50%;
+    max-height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+.intro div:nth-child(3) {
+    float: left;
+}
+
+.text-wrapper {
+    padding: 130px;
+}
+
+p {
+    color: #1f2022;
+    line-height: 29px;
+}
+
+.intro-image-1 {
+    background-image: url('../assets/image-2.jpg');
+}
+
+.intro-image-2 {
+    background-image: url('../assets/image-7.jpg');
+}
+
+.heading {
+    padding-bottom: 15px;
+    color: #1f2022;
+    font-size: 4.2rem;
+    text-align: left;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    margin-top: 15px;
+    color: #F2A11C;
+    background-color: #1f2022;
+    border-color: transparent;
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.profile {
+    padding: 100px 0;
+    background-color: #f4f4f4;
+}
+
+.profile img {
+    float: left;
+    width: 27%;
+    margin: 0 35px 0 0;
+}
+
+
+.links {
+    min-height: 450px;
+    background-image: url('../assets/image-5.jpg');
+    background-size: cover;
+    background-position: center;
+    font-size: 3rem;
+    text-align: center;
+
+}
+.links i {
+    display: block;
+    padding: 0 0 20px 0;
+    color:  white;
+    font-size: 5rem;
+}
+
+.links ul {
+    display: inline-block;
+    margin: 0
+}
+
+.links li {
+    float: left;
+    padding: 195px 50px;
+}
+
+.links a {
+    color: #F2A11C;
+}
+.gallery {
+    color: #4A4A4A;
+}
+
+.gallery h2{
+    padding: 75px 0;
+    text-align: center;
+}
+
+.gallery li {
+    float: left;
+    width: calc(100%/3 - 27px);
+    padding: 20px 20px 100px 20px;
+
+    /* Remove border-box because we are padding each image differently.
+    If we leave border-box on then the middle image is smaller due to more padding*/
+    -moz-box-sizing: unset; 
+    -webkit-box-sizing: unset;
+    box-sizing: unset;     
+}
+
+.gallery li:first-child {
+    padding-left: 0;
+}
+
+.gallery li:last-child {
+    padding-right: 0;
+}
+
+footer {
+    padding: 100px 0;
+    background-color: #1F2022;
+}
+
+footer a {
+    color: white;
+    text-transform: uppercase;
+}
+
+footer h3 {
+    padding: 20px 0;
+    color: #F2A11C;
+    font-family: "Pacifico";
+    font-size: 2.2rem;
+    text-align: left;
+}
+
+footer span {
+    display: block;
+    color: white;
+    line-height: 29px;
+}
+
+.contact, .stay-updated {
+    float: left;
+    width: 50%;
+}
+
+footer input {
+    height: 60px;
+    margin: 10px 0 0 0;
+    font-family: 'Catamaran';
+}
+
+footer nav {
+    margin: 0 0 25px 0;
+}
+
+footer input[type=email] {
+    width: 70%;
+    padding: 0 0 0 30px;
+    border: 0;
+}
+
+footer input[type=submit]{
+    float: right;
+    width: 30%;
+    color: #1f2022;
+    background-color: #F2A11C;
+    border-color: transparent;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1050px){
+
+    header { 
+        background-position: center;
+    }
+
+
+    .intro div {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .contact, .stay-updated {
+        width: 100%;
+    }
+}
+
+@media (max-width: 740px) {
+
+    .icons, header nav {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+}
+
+@media (max-width: 610px){
+    h1 {
+        font-size: 10rem;
+    }
+
+    .text-wrapper {
+        padding: 75px;
+        text-align: center;
+    }
+
+    .text-wrapper h2 {
+        text-align: center;
+    }
+
+    .links li {
+        width: 100%;
+        padding: 25px 0;
+        margin: 0 auto;
+    }
+
+    .profile, .profile h2 {
+        text-align: center;
+    }
+
+    .profile p {
+        text-align: left;
+    }
+
+    .profile img {
+        float: none;
+        width: 90%;
+        margin: 0 0 25px 0;
+    }
+
+    .wrapper {
+        width: 90%;
+    }
+
+    .gallery li {
+        float: right;
+        width: calc(100%/2 - 10px);
+        padding: 10px 0 50px 0;
+    }
+
+    .gallery li:first-child {
+        float: left;
+    }
+
+    .gallery li:last-child {
+        display: none;
+    }
+
+    footer, footer h3 {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    footer input[type=email],  footer input[type=submit]{
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .text-wrapper {
+        padding: 50px;
+    }
+
+    h1 {
+        font-size: 8rem;
+    }
+}

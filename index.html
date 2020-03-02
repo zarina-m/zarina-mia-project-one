@@ -4,94 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Catamaran:400,700|Pacifico&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome-free-5.12.1-web/css/all.css">
+    <title>Bikerland-Homepage</title>
 </head>
 <body>
     <header>
-        <div class="wrapper">
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </nav>
-            <h1>Bikerland</h1>
-            <ul class="icons">
-                <li><a href=""> <img src="assets/001-instagram.svg"/></a></li>
-                <li><a href=""> <img src="assets/002-facebook.svg" /></a></li>
-                <li><a href=""> <img src="assets/003-snapchat.svg" /></a></li>
-                <li><a href=""> <img src="assets/004-twitter.svg" /></a></li>
+        <nav class="hamburger-menu">
+            <i class="fas fa-bars"></i>
+        </nav>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
-        </div>
+        </nav>
+        <h1>Bikerland</h1>
+        <ul class="icons">
+            <li><a href=""> <i class="fab fa-instagram" title="Link to our Instagram"></i></a></li>
+            <li><a href=""> <i class="fab fa-facebook-f" title="Link to our Facebook"></i></a></li>
+            <li><a href=""> <i class="fab fa-snapchat-ghost" title="Link to our Snapchat"></i></a></li>
+            <li><a href=""> <i class="fab fa-twitter" title="Link to our Twitter"></i></a></li>
+        </ul>
     </header>
     <main>
-        <div class="wrapper">
-            <section class="intro clearfix">
-                <div>
-                    <h2 class="heading">
-                        About us
-                    </h2>
-                    <p class="content">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt necessitatibus ducimus accusantium, quam vero unde fugit. Harum doloremque doloribus unde ipsum officiis facilis vel dignissimos autem natus est minus molestias, officia eveniet rerum reiciendis temporibus qui?
-                    </p>
-                    <button>Read More</button>
-                </div>
-                <div class="image-wrapper">
-                    <img src="assets/image-2.jpg" alt="Foot on bicyclepedal"/>
-                </div>
-                <div class="image-wrapper">
-                    <img src="assets/image-7.jpg" alt="Front view of bicycle" />
-                </div>
-                <div>
-                    <h2 class="heading">
-                        Our mission
-                    </h2>
-                    <p class="content">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt necessitatibus ducimus accusantium, quam vero unde fugit.
-                    Harum doloremque doloribus unde ipsum officiis facilis vel dignissimos autem natus est minus molestias, officia eveniet
-                    rerum reiciendis temporibus qui?
-                    </p>
-                    <button>Read More</button>
-                </div>
-            </section>
-            <section class="profile clearfix">
-                <img src="assets/image-6.jpg" alt="Side view of person on a bicycle"/>
+        <section class="intro clearfix">   
+            <div class="image-wrapper intro-image-1" title="Zoomed in foot on bicycle pedal">
+            </div>
+            <div class="text-wrapper">
+                <h2 class="heading">
+                    About us
+                </h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla pulvinar tortor a elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus. Vestibulum vitae tincident sem, a blandit sem. Quisque interdum orci.
+                </p>
+                <button>Read More</button>
+            </div>
+            <div class="image-wrapper intro-image-2" title="Black bicycle with Union Jack sticker">
+            </div>
+            <div class="text-wrapper">
+                <h2 class="heading">
+                    Our mission
+                </h2>
+                <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla pulvinar tortor a elementum eleifend. Vestibulum
+                consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus. Vestibulum vitae tincident
+                sem, a blandit sem. Quisque interdum orci.
+                </p>
+                <button>Read More</button>
+            </div>
+        </section>
+        <section class="profile clearfix">
+            <div class="wrapper">
+                <img src="assets/image-6.jpg" alt="Side view of person with red jacket on a bicycle"/>
                 <h2 class="heading">
                     Meet Alissa
                 </h2>
-                <p class="content">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt necessitatibus ducimus accusantium, quam vero unde fugit.
-                Harum doloremque doloribus unde ipsum officiis facilis vel dignissimos autem natus est minus molestias, officia eveniet
-                rerum reiciendis temporibus qui?
+                <p>
+                Lorem ipsum, dolor sit amet consectetur adipiscing elit. Nulla pulvinar tortor a elementum eleifend. Vestibulum
+                consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus nulla pulvinar tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla elementum eleifend. Vestibulum consequat vestibulum felis pharetra luctus. Quisque interdum orci quis convallis dapibus nulla pulvinar tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla el. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar tortor nulla elementum eleifend. 
                 </p>
                 <button>Read More</button>
-            </section>
-            <section class="links">
-                <h2 class="heading"></h2>
-                </h2>
-                <ul>
-                    <li><a href="">Products</a></li>
-                    <li><a href="">Community</a></li>
-                    <li><a href="">Reach Out</a></li>
-                </ul>
-            </section>
-            <section class="gallery">
+            </div>
+        </section>
+        <section class="links">
+            <h2 class="heading"></h2>
+            </h2>
+            <ul class="clearfix">
+                <li>
+                    <i class="fas fa-bicycle" aria-hidden="true"></i> 
+                    <a href="">Products</a>
+                </li>
+                <li>
+                    <i class="fas fa-users" aria-hidden="true"></i>
+                    <a href="">Community</a>
+                </li>
+                <li>
+                    <i class="fas fa-phone" aria-hidden="true"></i>
+                    <a href="">Reach Out</a>
+                </li>
+            </ul>
+        </section>
+        <section class="gallery">
+            <div class="wrapper">
                 <h2 class="heading">
                     The Gram
                 </h2>
-                <ul>
-                    <li><a href=""> <img src="assets/001-instagram.svg" /></a></li>
-                    <li><a href=""> <img src="assets/002-facebook.svg" /></a></li>
-                    <li><a href=""> <img src="assets/003-snapchat.svg" /></a></li>
+                <ul class="clearfix">
+                    <li><a href=""> <img src="assets/bikerland-missing.jpg" alt="Woman with red helmet riding bicycle" /></a></li>
+                    <li><a href=""> <img src="assets/image-3.jpg" alt="Man in biking outfit riding in a race"/></a></li>
+                    <li><a href=""> <img src="assets/image-4.jpg" alt="White cruiser bicycle leaning against wall"/></a></li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
     </main>
     <footer>
-        <div class="wrapper">
+        <div class="wrapper clearfix">
             <nav>
                 <ul>
                     <li><a href="">Home</a></li>
@@ -100,11 +110,23 @@
                     <li><a href="">Contact</a></li>
                 </ul>
             </nav>
-            <div class="contact">
-
+            <div class="contact clearfix">
+                <h3>
+                    Contact
+                </h3>
+                <span>info@email.com | 123 - 456 - 7890</span>
+                <span>123 some road, Toronto, ON</span>
+                <span>A5A 5A5, Canada</span>
             </div>
             <div class="stay-updated">
-
+                <h3>
+                    Stay updated
+                </h3>
+                <span>Subscribe to our newsletter to stay updated.</span>
+                <div>
+                <input type="email" placeholder="email address" /> 
+                <input type="submit" value="subscribe"/>
+                </div>
             </div>
         </div>
     </footer>
